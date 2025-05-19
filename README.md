@@ -62,6 +62,19 @@ The project uses the [UCI Breast Cancer Wisconsin (Original) Dataset](https://ar
 
 ## Key Takeaways
 
-- **Interpretability matters:** Logistic regression with L1 regularization offered both performance and transparency
-- **Not all “important-looking” features help the model:** Odds ratios can be misleading if a feature’s signal is redundant
-- **Robust model design:** Final model relies on a small set of strong, non-redundant features
+- **Data quality and context matter.**  
+  Simple imputation choices — like using a class-wise median — can preserve meaningful patterns and reduce bias, especially when class distributions differ.
+
+- **Feature relevance should be evaluated from multiple perspectives.**  
+  Mutual Information helped assess individual feature–target relationships, while correlation analysis, VIF and L1 regularization addressed multicollinearity.
+
+- **Model interpretability is not a trade-off — it's a strength.**  
+  Logistic regression with L1 regularization not only delivered high accuracy but also enabled transparent evaluation of feature contributions, which is essential for trust in healthcare applications.
+
+- **Not all statistically “important” features are operationally useful.**  
+  Marginal Adhesion had a positive odds ratio, yet removing it improved model performance — highlighting the value of permutation importance for assessing true model dependency.
+
+- **A robust model is one that generalizes well and isn't overly reliant on weak or redundant signals.**  
+  By streamlining features and validating across folds, the model achieved both reliability and interpretability, making it practical for real-world decision support systems.
+
+
