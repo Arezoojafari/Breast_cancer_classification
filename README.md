@@ -42,6 +42,33 @@ The project uses the [UCI Breast Cancer Wisconsin (Original) Dataset](https://ar
    - Used **Mutual Information** to quantify individual feature relevance
    - Identified high correlation between features (e.g., Cell Size and Cell Shape)
 
+<table>
+  <tr>
+    <td width="50%">
+      <h3>Mutual Information</h3>
+      <img src="Images/MI-Breast Cancer.png" width="100%">
+    </td>
+    <td width="50%">
+      <h3>Variance Inflation Factor (VIF)</h3>
+      <table>
+        <tr><th>Feature</th><th>VIF</th></tr>
+        <tr><td>Uniformity of Cell Size</td><td>7.189</td></tr>
+        <tr><td>Uniformity of Cell Shape</td><td>6.512</td></tr>
+        <tr><td>const</td><td>5.082</td></tr>
+        <tr><td>Bland Chromatin</td><td>2.884</td></tr>
+        <tr><td>Bare Nuclei</td><td>2.560</td></tr>
+        <tr><td>Single Epithelial Cell Size</td><td>2.540</td></tr>
+        <tr><td>Normal Nucleoli</td><td>2.440</td></tr>
+        <tr><td>Marginal Adhesion</td><td>2.431</td></tr>
+        <tr><td>Clump Thickness</td><td>1.920</td></tr>
+        <tr><td>Mitoses</td><td>1.389</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+
 3. **Modeling**
    - Trained a **Logistic Regression** model with **L1 regularization** for built-in feature selection and interpretability
    - Performed **hyperparameter tuning** using grid search
