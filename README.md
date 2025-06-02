@@ -82,6 +82,11 @@ The project uses the [UCI Breast Cancer Wisconsin (Original) Dataset](https://ar
 
 5. **Feature Importance & Interpretation**
    - Identified top predictors using both **odds ratios** from the logistic regression model and **permutation importance**
+ 
+  <p align="center">
+  <img src="Images/Model-Coefficients.png" alt="Mutual Information Barplot" width="500"/>
+</p>
+   
    - Top predictors included: **Clump Thickness**, **Bare Nuclei**, and **Mitoses**, all of which had strong odds ratios and high permutation importance scores
    - One interesting discrepancy appeared with **Marginal Adhesion**:
      - Odds ratio suggested it was positively associated with malignancy (e.g., higher values increased cancer odds)
