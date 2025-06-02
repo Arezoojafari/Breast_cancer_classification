@@ -42,6 +42,11 @@ The project uses the [UCI Breast Cancer Wisconsin (Original) Dataset](https://ar
    - Used **Mutual Information** to quantify individual feature relevance
    - Identified high correlation between features (e.g., Cell Size and Cell Shape)
 
+<p align="center">
+  <img src="Images/MI-Breast Cancer.png" width="500"/>
+</p
+
+
 3. **Modeling**
    - Trained a **Logistic Regression** model with **L1 regularization** for built-in feature selection and interpretability
    - Performed **hyperparameter tuning** using grid search
