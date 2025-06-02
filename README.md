@@ -83,13 +83,10 @@ The project uses the [UCI Breast Cancer Wisconsin (Original) Dataset](https://ar
 5. **Feature Importance & Interpretation**
    - Identified top predictors using both **odds ratios** from the logistic regression model and **permutation importance**
  
-  <p align="center">
-  <img src="Images/Model-Coefficients.png" alt="Mutual Information Barplot" width="500"/>
-</p>
 <table>
   <tr>
     <td width="50%">
-      <h4 align="center">🔹 Coefficient Plot</h4>
+      <h4 align="center">🔹 Coefficient </h4>
       <img src="Images/Model-Coefficients.png" alt="Coefficient Plot" width="100%">
     </td>
     <td width="50%">
