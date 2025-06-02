@@ -86,6 +86,19 @@ The project uses the [UCI Breast Cancer Wisconsin (Original) Dataset](https://ar
   <p align="center">
   <img src="Images/Model-Coefficients.png" alt="Mutual Information Barplot" width="500"/>
 </p>
+<table>
+  <tr>
+    <td width="50%">
+      <h4 align="center">🔹 Coefficient Plot</h4>
+      <img src="Images/Model-Coefficients.png" alt="Coefficient Plot" width="100%">
+    </td>
+    <td width="50%">
+      <h4 align="center">🔹 Permutation Importance</h4>
+      <img src="Images/Permutation-FI.png" alt="Permutation Importance" width="100%">
+    </td>
+  </tr>
+</table>
+
    
    - Top predictors included: **Clump Thickness**, **Bare Nuclei**, and **Mitoses**, all of which had strong odds ratios and high permutation importance scores
    - One interesting discrepancy appeared with **Marginal Adhesion**:
