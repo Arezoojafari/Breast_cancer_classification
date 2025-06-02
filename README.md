@@ -49,7 +49,7 @@ The project uses the [UCI Breast Cancer Wisconsin (Original) Dataset](https://ar
       <img src="Images/MI-Breast Cancer.png" width="100%">
     </td>
     <td width="50%">
-      <h3 align="center">Variance Inflation Factor (VIF)</h3>
+      <h3 align="Left">Variance Inflation Factor (VIF)</h3>
       <table>
         <tr><th>Feature</th><th>VIF</th></tr>
         <tr><td>Uniformity of Cell Size</td><td>7.189</td></tr>
