@@ -46,7 +46,7 @@ The project uses the [UCI Breast Cancer Wisconsin (Original) Dataset](https://ar
   <tr>
     <td width="50%">
       <h3>Mutual Information</h3>
-      <img src="images/MI-Breast Cancer.png" width="100%">
+      <img src="Images/MI-Breast Cancer.png" width="100%">
     </td>
     <td width="50%">
       <h3>Variance Inflation Factor (VIF)</h3>
